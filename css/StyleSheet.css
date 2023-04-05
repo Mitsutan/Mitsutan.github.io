@@ -1,0 +1,118 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background: -moz-linear-gradient(top, #b5baff, #ffb5d8 70%,#5a0045); 
+    background: -webkit-linear-gradient(top, #b87ca4, #615b7e 60%,#1f355b); 
+    background: linear-gradient(to bottom,#b87ca4, #615b7e 60%,#1f355b); 
+    /* font-family: "游ゴシック", "ヒラギノ角ゴ ProN", "MS Pゴシック", sans-serif; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    /* font-size: 2vmin; */
+}
+
+a {
+    color: #f0f0f0;
+}
+
+a.index{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.index{
+    position: relative;
+    font-size: 4vmin;
+    left: 10%;
+    line-height: 50px;
+    /* border-left-style: solid; */
+    padding: 2%;
+    margin: 1%;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.index:hover{
+    background-color: #9c9c9c31;
+    border-bottom-style: solid;
+}
+
+header#top{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+footer#end{
+    text-align: center;
+    font-size: small;
+    color: gray;
+}
+
+h1{
+    /* font-size: 5vmin; */
+    margin-top: 5%;
+}
+
+h2{
+    text-underline-offset: 0.2em;
+    text-decoration-line: underline;
+    /* font-size: 4vmin; */
+    margin: 5%;
+}
+
+h3{
+    /* font-size: 3vmin; */
+    margin-top: 5%;
+}
+
+div#contents{
+    position: fixed;
+    left: 0;
+    top: 30%;
+    width: 20%;
+    height: 100%;
+} 
+
+img#icon{
+    width: 20vmax;
+    border-radius: 90%;
+    margin: 2%;
+}
+
+span.list{
+    /* margin-left: 2%; */
+    margin: 2%;
+}
+
+section.block{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* margin-left: 20%;
+    margin-right: 10%; */
+    padding: 5%;
+    border: 2px solid #f8f8f8ce;
+    background-color: #9c9c9c31;
+    color: white;
+    text-align: center;
+}
+
+.anime1{
+    animation-name: fadeIn_up;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    opacity: 0;
+}
+
+@keyframes fadeIn_up {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
