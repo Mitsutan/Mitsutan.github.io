@@ -52,7 +52,9 @@ footer#end{
 
 h1{
     /* font-size: 5vmin; */
-    margin-top: 5%;
+/*    margin-top: 5%;*/
+    opacity: 0;
+    margin: 6%;
 }
 
 h2{
@@ -91,7 +93,7 @@ section.block{
     margin-bottom: 5%;
     /* margin-left: 20%;
     margin-right: 10%; */
-    padding: 5%;
+    padding: 4%;
     border: 2px solid #f8f8f8ce;
     background-color: #9c9c9c31;
     color: white;
@@ -106,6 +108,14 @@ section.block{
     opacity: 0;
 }
 
+.anime2 {
+    animation-name: zoomUp_out;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    opacity: 1;
+}
+
 @keyframes fadeIn_up {
     0%{
         opacity: 0;
@@ -114,5 +124,17 @@ section.block{
     100%{
         opacity: 1;
         transform: translateY(0px);
+    }
+}
+
+@keyframes zoomUp_out {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
     }
 }
