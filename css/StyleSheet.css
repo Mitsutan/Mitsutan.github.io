@@ -61,11 +61,13 @@ h2{
     text-underline-offset: 0.2em;
     text-decoration-line: underline;
     /* font-size: 4vmin; */
+    opacity: 0;
     margin: 5%;
 }
 
-h3{
+h3 {
     /* font-size: 3vmin; */
+    opacity: 0;
     margin-top: 5%;
 }
 
@@ -100,6 +102,10 @@ section.block{
     text-align: center;
 }
 
+p {
+    opacity: 0;
+}
+
 .anime1{
     animation-name: fadeIn_up;
     animation-fill-mode: forwards;
@@ -114,6 +120,13 @@ section.block{
     animation-duration: 1s;
     animation-timing-function: ease-out;
     opacity: 1;
+}
+
+.anime3 {
+    animation-name: fade;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 @keyframes fadeIn_up {
@@ -136,5 +149,14 @@ section.block{
     }
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
