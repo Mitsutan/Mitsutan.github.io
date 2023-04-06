@@ -75,14 +75,15 @@ div#contents{
     position: fixed;
     left: 0;
     top: 30%;
+    z-index: 5;
     width: 20%;
     height: 100%;
 }
 
-div#moviearea {
+/* div#moviearea {
     padding-left: 20%;
     padding-right: 20%;
-}
+} */
 
 iframe {
     opacity: 0;
