@@ -45,6 +45,7 @@ header#top{
 }
 
 footer#end{
+    margin-bottom: 2%;
     text-align: center;
     font-size: small;
     color: gray;
