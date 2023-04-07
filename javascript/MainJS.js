@@ -29,14 +29,14 @@ function fireAnimation(el) {
 // ---
 
 // LoadEmbeddedYoutubeAfterPageLoad---
-function youtubeDefer() {
-    const iframes = document.querySelectorAll('.youtube');
-    iframes.forEach(function(iframe) {
-        if (iframe.getAttribute('data-src')) {
-            iframe.setAttribute('src', iframe.getAttribute('data-src'));
-        }
-    });
-}
+// function youtubeDefer() {
+//     const iframes = document.querySelectorAll('.youtube');
+//     iframes.forEach(function(iframe) {
+//         if (iframe.getAttribute('data-src')) {
+//             iframe.setAttribute('src', iframe.getAttribute('data-src'));
+//         }
+//     });
+// }
 
-window.addEventListener('load', youtubeDefer);
+// window.addEventListener('load', youtubeDefer);
 // ---
