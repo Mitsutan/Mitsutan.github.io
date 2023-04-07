@@ -91,7 +91,7 @@ iframe {
 }
 
 img#icon{
-    width: 20vmax;
+    width: 30vmin;
     border-radius: 90%;
     margin: 2%;
 }
