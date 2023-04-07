@@ -1,8 +1,11 @@
+// Auto-scrollToSpecifiedPageId---
 function jumpTo(pageID) {
     const target = document.getElementById(pageID);
     if (target) scrollBy(0, target.getBoundingClientRect().top);
 }
+// ---
 
+// FireAnimationAsYouScroll---
 const elWindowCrossAnimeFire = document.querySelectorAll('.windowCrossAnimeFire');
 const animFireCk = new IntersectionObserver(fireAnimation, { threshold: 1 });
 
@@ -23,3 +26,17 @@ function fireAnimation(el) {
         }
     });
 }
+// ---
+
+// LoadEmbeddedYoutubeAfterPageLoad---
+function youtubeDefer() {
+    const iframes = document.querySelectorAll('.youtube');
+    iframes.forEach(function(iframe) {
+        if (iframe.getAttribute('data-src')) {
+            iframe.setAttribute('src', iframe.getAttribute('data-src'));
+        }
+    });
+}
+
+window.addEventListener('load', youtubeDefer);
+// ---
