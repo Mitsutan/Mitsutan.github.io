@@ -101,6 +101,16 @@ span.list{
     margin: 2%;
 }
 
+button {
+    background: none;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: white;
+}
+
 section.block{
     margin-top: 5%;
     margin-bottom: 5%;
