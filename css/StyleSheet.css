@@ -15,22 +15,23 @@ a {
     color: #f0f0f0;
 }
 
-a.index{
+/*a.index{
     color: white;
     text-decoration: none;
     cursor: pointer;
-}
+}*/
 
 .index{
     position: relative;
     font-size: 4vmin;
     left: 10%;
-    line-height: 50px;
+/*    line-height: 50px;*/
     /* border-left-style: solid; */
-    padding: 2%;
-    margin: 1%;
+/*    padding: 2%;*/
+    margin: 4%;
     transition: all 0.3s;
     font-weight: bold;
+    border-bottom-style: hidden;
 }
 
 .index:hover{
