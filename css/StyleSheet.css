@@ -65,6 +65,7 @@ h2{
     /* font-size: 4vmin; */
     opacity: 0;
     margin: 5%;
+    margin-top: 10%;
 }
 
 h3 {
@@ -126,6 +127,7 @@ section.block{
 
 p {
     opacity: 0;
+    word-break: keep-all;
 }
 
 .anime1{
