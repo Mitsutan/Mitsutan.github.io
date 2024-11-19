@@ -123,11 +123,12 @@ section.block{
     background-color: #9c9c9c31;
     color: white;
     text-align: center;
+    word-break: auto-phrase;
 }
 
 p {
     opacity: 0;
-    word-break: keep-all;
+    /* word-break: keep-all; */
 }
 
 .anime1{
