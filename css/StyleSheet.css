@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
 html{
     min-height: 100%;
 }
@@ -7,7 +9,7 @@ body{
     background: -webkit-linear-gradient(top, #b87ca4, #615b7e 60%,#1f355b); 
     background: linear-gradient(to bottom,#b87ca4, #615b7e 60%,#1f355b); 
     /* font-family: "游ゴシック", "ヒラギノ角ゴ ProN", "MS Pゴシック", sans-serif; */
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: "Kosugi Maru", sans-serif;
     /* font-size: 2vmin; */
 }
 
